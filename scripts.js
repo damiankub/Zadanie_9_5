@@ -1,8 +1,5 @@
- var i = document.getElementsByClassName('button');
-  i = i.length;
-  var z = -1;
-  for (i.length >0; i<i*2+1; i++) {  
-     z++;
-      var j =document.getElementsByClassName('button')[z].innerText;
-      alert(j);
+ var buttons = document.getElementsByClassName('button');
+  for (var i=0; i<buttons.length; i++) {  
+    alert(buttons[i].innerText);
   }    
+ 
